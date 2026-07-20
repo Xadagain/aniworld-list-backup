@@ -1,0 +1,66 @@
+:root {
+  color: #eef2ff;
+  background: #11182b;
+  font-family: system-ui, sans-serif;
+}
+
+body {
+  margin: 0;
+  width: 300px;
+}
+
+main {
+  padding: 18px;
+}
+
+h1 {
+  font-size: 18px;
+  margin: 0 0 12px;
+}
+
+p {
+  color: #c1cae8;
+  font-size: 13px;
+  line-height: 1.45;
+}
+
+dl {
+  display: grid;
+  gap: 8px;
+  margin: 16px 0;
+}
+
+dl div {
+  align-items: center;
+  background: #1b2745;
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 10px;
+}
+
+dt, dd {
+  margin: 0;
+}
+
+dd {
+  color: #8fa7ff;
+  font-weight: 700;
+}
+
+button {
+  background: #617cf5;
+  border: 0;
+  color: white;
+  cursor: pointer;
+  font: inherit;
+  padding: 9px 12px;
+  width: 100%;
+}
+
+button:hover {
+  background: #7890ff;
+}
+
+.hint {
+  margin: 14px 0 0;
+}
